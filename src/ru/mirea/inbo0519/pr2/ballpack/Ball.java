@@ -4,12 +4,12 @@ public class Ball {
     private double x;
     private double y;
 
-    Ball()
+    public Ball()
     {
         x = y = 0.0;
     }
 
-    Ball(double x, double y)
+    public Ball(double x, double y)
     {
         this.x = x;
         this.y = y;
